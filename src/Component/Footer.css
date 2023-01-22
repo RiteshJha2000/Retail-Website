@@ -1,0 +1,51 @@
+.footer{
+    margin-top: 50px;
+    padding-top: 30px;
+    border: 1px solid #80808029;
+}
+
+.foot_info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+}
+
+.social{
+    display: flex;
+    justify-content: end;
+}
+
+.social svg{
+    margin: 0 10px;
+    color: #601616;
+    margin-bottom: 10px;
+}
+
+.social_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.social_info h6{
+    margin: 0 10px;
+    color: #601616;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.foot{
+    background-color:#601616 ;
+    color: white;
+    padding: 10px 0;
+    
+}
+
+@media screen and (max-width: 500px){
+    .social_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-end;
+    }
+}
